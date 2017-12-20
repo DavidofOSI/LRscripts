@@ -1,0 +1,20 @@
+Virtual User Script started at : 2017-12-20 18:10:07
+TruClient Replay for LoadRunner 12.55.0, build 0911. OS: Windows 10, Browser: IE, initialized on 2017/12/20 at 18:10:01 (0000.000s)
+
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Transaction 1" started.
+t=00006383ms: ** 1: Navigate to "https://supportweb.oras...Web%2fHome.aspx" ** started    [MsgId: MMSG-205180]
+t=00008844ms: ** 1: Navigate to https://supportweb.orasi...tWeb%2fHome.aspx ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 1" ended with a "Pass" status (Duration: 2.5760 Wasted Time: 0.2130).
+t=00009356ms: ** 4: Scroll on Login Home Welcome to... ** started    [MsgId: MMSG-205180]
+t=00009612ms: ** 4: Scroll on Login Home Welcome to... ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00009624ms: ** 5: Wait 3 seconds ** started    [MsgId: MMSG-205180]
+t=00012880ms: ** 5: Wait 3 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 2" started.
+t=00013465ms: ** 7: Click on Support Sales link ** started    [MsgId: MMSG-205180]
+t=00016100ms: ** 7: Click on Support Sales link ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 2" ended with a "Pass" status (Duration: 2.7130 Wasted Time: 0.2460).
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

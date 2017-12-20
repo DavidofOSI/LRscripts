@@ -16,7 +16,7 @@ ParamLeftBrace={
 ParamRightBrace=}
 ScriptLanguage=C
 RunType=cci
-LastCodeGenerationVer=
+LastCodeGenerationVer=12.55.0.911
 DisableRegenerate=0
 Encoding=
 Description=
@@ -27,16 +27,16 @@ Action=Action.c
 Lib-View=Lib-View.c
 vuser_end=vuser_end.c
 [VisibleActions]
+Lib-View=1
 vuser_init=1
 Action=1
 vuser_end=1
-Lib-View=1
 [VuserProfiles]
 Profiles=Default Profile
 [CfgFiles]
-Default Profile=default.cfg
+"Default Profile"=default.cfg
 [RunLogicFiles]
-Default Profile=default.usp
+"Default Profile"=default.usp
 [ExtraFiles]
 C-functions.c=
 globals.h=
@@ -57,14 +57,17 @@ Action=0
 Lib-View=0
 vuser_end=0
 [Replayed Actions]
-vuser_init=0
-Action=0
-Lib-View=0
-vuser_end=0
+vuser_init=1
+Action=1
+Lib-View=1
+vuser_end=1
 [TransactionsOrder]
-Order=
+Order="Transaction 1__*delimiter*__Transaction 2"
 [StateManagement]
-LastReplayStatus=0
+LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=
-ActiveRunName=
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+"Transaction 1"=
+"Transaction 2"=
